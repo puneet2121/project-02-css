@@ -9,7 +9,7 @@
 .container{
   padding: 55px;
   background-image:url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
-  background-color: rgba(35, 23, 70, 0.97);
+  background-color: darkslategray;
   background-blend-mode: overlay;
 }
 
@@ -26,7 +26,7 @@ nav {
 }
 .list-item {
   display: flex;
-  color: rgb(237, 237, 117);
+  color: rgb(183, 183, 8);
   margin-right: 55px;
   font-size: 21px;
 }
@@ -35,7 +35,7 @@ nav {
 /* ---------- HERO ------------ */
 /* ------------------------------ */
 .button-small {
-  background-color:rgb(178, 62, 62);
+  background-color:rgb(174, 35, 35);
   font-size: 28px;
   width: 145px;
   height: 54px;
@@ -45,7 +45,21 @@ nav {
   margin-right: 48px;
 }
 .hero-heading {
-  font-size: 120px;
+  font-size: 100px;
   margin-top: 60px;
-  margin-left: 155px;
+  margin-left: 195px;
+  font-weight: bold;
+  color:rgb(183, 183, 8);
+}
+.button-large {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(174, 35, 35);
+  font-size: 28px;
+  width: 245px;
+  color: white;
+  
+  height: 74px;
+  margin-top: 35px;
 }
