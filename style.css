@@ -9,9 +9,14 @@
 .container{
   padding: 55px;
   background-image:url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
-  background-color: rgba(9, 52, 112, 0.969);
-  background-blend-mode: lighten;
+  background-color: rgba(35, 23, 70, 0.97);
+  background-blend-mode: overlay;
 }
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -27,9 +32,20 @@ nav {
 }
 
 /* ------------------------------ */
-/* ---------- NAVBAR ------------ */
-/* ------------------------------ */
-
-/* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
+.button-small {
+  background-color:rgb(178, 62, 62);
+  font-size: 28px;
+  width: 145px;
+  height: 54px;
+  color: white;
+  margin-top: -12px;
+  border-radius: 4px;
+  margin-right: 48px;
+}
+.hero-heading {
+  font-size: 120px;
+  margin-top: 60px;
+  margin-left: 155px;
+}
